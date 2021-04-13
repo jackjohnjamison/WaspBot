@@ -90,6 +90,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="app.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
     <Content Include="Firefox\AccessibleMarshal.dll" />
     <Content Include="Firefox\breakpadinjector.dll" />
     <Content Include="Firefox\d3dcompiler_47.dll" />
